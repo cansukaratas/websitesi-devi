@@ -1,0 +1,110 @@
+/* Genel Stil*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+    color: #08296d;
+    text-align:center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #a2b7d8;
+    color: #333333;
+    /* background-image: url("resim.jpg"); */
+    /* background-size: 1920px 1080px; Resmin boyutunu yüzdeyle küçültür */
+    /* background-repeat: no-repeat; Resmin tekrar etmesini önler */
+    /* background-position: center; Resmi ortalar */
+}
+
+/* Navigation Bar*/
+nav {
+    background-color: #08296d;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+}
+
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a2b7d8;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+   nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+   nav li a:hover {
+    background-color: #ffffff;
+  }
+/*nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}*/
+
+/*Ana İçerik*/
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.7;
+}
+
+
+
+
+section img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+
+
+video {
+    margin-top: 10px;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #082a6d7b;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
